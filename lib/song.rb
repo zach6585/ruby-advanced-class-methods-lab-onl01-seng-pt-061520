@@ -56,7 +56,7 @@ class Song
     a = filename.split("-")
     songs = self.new 
     songs.name = a[0]
-    songs.artist = a[1][:a[1].size - 4 ]
+    songs.artist = a[1]
     @@all << songs
     songs 
   end 
