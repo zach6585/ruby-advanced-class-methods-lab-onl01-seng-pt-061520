@@ -62,5 +62,6 @@ class Song
     @@all << songs
     songs 
   end 
-  binding.pry
 end
+
+binding.pry
