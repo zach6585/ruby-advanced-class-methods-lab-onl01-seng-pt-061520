@@ -59,6 +59,15 @@ class Song
     songs = self.new 
     songs.name = a[1][0...-4]
     songs.artist_name = a[0]
+    songs 
+  end 
+  
+  def self.new_from_filename(filename)
+    a = filename.split(" - ")
+    puts a
+    songs = self.new 
+    songs.name = a[1][0...-4]
+    songs.artist_name = a[0]
     @@all << songs
     songs 
   end 
