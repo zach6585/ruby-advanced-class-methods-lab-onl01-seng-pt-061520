@@ -62,5 +62,7 @@ class Song
     @@all << songs
     songs 
   end 
+  
+  def create_from_filename
 end
 
