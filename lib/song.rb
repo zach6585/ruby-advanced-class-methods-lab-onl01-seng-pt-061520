@@ -48,6 +48,7 @@ class Song
     @@all.each do |song|
       a << song.name 
     end 
+    a = a.sort 
     a.collect{|song| find_by_name(song)}
   end
 end
