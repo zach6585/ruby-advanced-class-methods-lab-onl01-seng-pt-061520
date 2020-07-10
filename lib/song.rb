@@ -44,6 +44,7 @@ class Song
   end 
   
   def self.alphabetical
+    a = []
     @@all.each do |song|
       
   end 
