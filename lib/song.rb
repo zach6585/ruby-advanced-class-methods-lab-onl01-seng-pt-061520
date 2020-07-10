@@ -49,6 +49,5 @@ class Song
       a << song.name 
     end 
     a.collect{|song| self.find_by_name(song)}
-    a
   end
 end
