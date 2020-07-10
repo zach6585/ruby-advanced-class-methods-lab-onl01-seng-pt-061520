@@ -48,9 +48,7 @@ class Song
     @@all.each do |song|
       a << song.name 
     end 
-    a.collect{|song| @@all.find_by_name(song)}
+    a.collect{|song| find_by_name(song)}
     a
-  end 
-      
-  end 
+  end
 end
