@@ -57,4 +57,5 @@ class Song
     songs = self.new 
     songs.name = a[0]
     songs.artist = a[1][:a[1].size - 4 ]
+    @@all << songs
 end
