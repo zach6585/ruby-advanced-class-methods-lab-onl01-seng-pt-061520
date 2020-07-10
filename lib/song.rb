@@ -47,6 +47,8 @@ class Song
     a = []
     @@all.each do |song|
       a << song.name 
+    end 
+    
       
   end 
 end
