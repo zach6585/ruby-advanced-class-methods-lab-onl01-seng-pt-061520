@@ -59,4 +59,5 @@ class Song
     songs.artist = a[1][:a[1].size - 4 ]
     @@all << songs
     songs 
+  end 
 end
