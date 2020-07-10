@@ -51,4 +51,7 @@ class Song
     a = a.sort 
     a.collect{|song| find_by_name(song)}
   end
+  
+  def self.new_from_filename(filename)
+    
 end
